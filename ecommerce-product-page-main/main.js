@@ -91,3 +91,14 @@ function drawProductIconModal(){
       <button class="card-modal__checkount">checkout</button>
   </div>`
 }
+
+// Cambiar imagenes cuando se presione los botones flechas
+const imageContainer = document.querySelector('.gallery__image-container');
+const nextGalleryBtn = document.querySelector('.gallery__next');
+const previusGalleryBtn = document.querySelector('.gallery__previous');
+const imageUrls = [
+   './images/image-product-1-thumbnail.jpg',
+   './images/image-product-2-thumbnail.jpg',
+   './images/image-product-3-thumbnail.jpg',
+   './images/image-product-4-thumbnail.jpg',
+]
